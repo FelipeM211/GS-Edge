@@ -92,22 +92,22 @@ Une conhecimentos de tecnologia, ergonomia e automação em uma solução práti
 
 Em resumo, o projeto mostra como a tecnologia conecta pessoas e dados para melhorar o trabalho humano, promovendo segurança, conforto e eficiência, pilares do futuro do trabalho digital e automatizado.
 
-▶️ Execução no Wokwi
+### ▶️ Execução no Wokwi
 Acesse https://wokwi.com/projects/447252664581370881
 
-🧰 Dependências
+### 🧰 Dependências
 Biblioteca DHT sensor library
 
 Biblioteca PubSubClient
 
 Biblioteca WiFi.h (nativa do ESP32)
 
-📡 Possível Expansão
+### 📡 Possível Expansão
 Dashboard IoT para visualização dos dados.
 
 Envio via HTTP para API ou banco de dados.
 
 Sistema de feedback automatizado (notificações ou relatórios).
 
-🔗 Link do Wokwi
+### 🔗 Link do Wokwi
 https://wokwi.com/projects/447252664581370881
