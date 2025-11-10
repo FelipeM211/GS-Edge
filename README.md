@@ -38,7 +38,7 @@ Criar uma aplicação com ESP32 que monitora condições de proximidade e confor
 - **Protocolo:** MQTT  
 - **Servidor:** `test.mosquitto.org`  
 - **Porta:** `1883`  
-- **Tópico:** `trabalho/futuro/bemestar`  
+- **Tópico:** `gs/bemestar`  
 - **Formato da mensagem publicada (JSON):**
   json
   {
