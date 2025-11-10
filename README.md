@@ -70,17 +70,7 @@ Promove o bem-estar físico e a produtividade dos profissionais;
 Demonstra o uso de IoT como ferramenta para melhoria das condições humanas no trabalho.
 
 ▶️ Execução no Wokwi
-Acesse https://wokwi.com.
-
-Crie um novo projeto ESP32.
-
-Cole o código completo fornecido.
-
-Substitua o arquivo diagram.json pelo JSON indicado.
-
-Clique em Start Simulation.
-
-Abra o Serial Monitor para ver os valores e status dos LEDs.
+Acesse https://wokwi.com/projects/447252664581370881
 
 🧰 Dependências
 Biblioteca DHT sensor library
