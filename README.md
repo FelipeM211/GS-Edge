@@ -60,14 +60,37 @@ Azul → 14
 Verde → 27
 (todos com o cátodo no GND)
 
-🧠 Justificativa e Contexto
-O projeto se insere no contexto do Futuro do Trabalho como uma proposta de monitoramento ambiental inteligente, que:
+🧠 Justificativa e Correspondência com o Tema “O Futuro do Trabalho”
+O projeto se alinha ao tema “O Futuro do Trabalho – Conectando pessoas, competências e propósito por meio da tecnologia” ao demonstrar como IoT e automação podem promover ambientes de trabalho mais inteligentes e seguros.
 
-Ajuda a manter ambientes de trabalho seguros e confortáveis;
+Conexões diretas com o tema:
+Bem-estar e segurança ocupacional
 
-Promove o bem-estar físico e a produtividade dos profissionais;
+Monitora fatores ambientais (temperatura, umidade e distância), essenciais para conforto e segurança.
 
-Demonstra o uso de IoT como ferramenta para melhoria das condições humanas no trabalho.
+Pode alertar sobre calor excessivo, superlotação ou risco de colisão com máquinas.
+
+Automação e tomada de decisão inteligente
+
+O ESP32 reage automaticamente às condições, acendendo LEDs e enviando dados a sistemas IoT.
+
+Demonstra autonomia e eficiência em tarefas de monitoramento.
+
+Conectividade e Internet das Coisas (IoT)
+
+Publica dados via MQTT, integrando sensores a plataformas externas de controle e análise.
+
+Sustentabilidade e digitalização do trabalho
+
+Reduz a necessidade de supervisão manual e melhora a eficiência operacional.
+
+Exemplo de como a tecnologia pode otimizar ambientes laborais e reduzir falhas humanas.
+
+Interdisciplinaridade e inovação
+
+Une conhecimentos de tecnologia, ergonomia e automação em uma solução prática e educativa.
+
+Em resumo, o projeto mostra como a tecnologia conecta pessoas e dados para melhorar o trabalho humano, promovendo segurança, conforto e eficiência, pilares do futuro do trabalho digital e automatizado.
 
 ▶️ Execução no Wokwi
 Acesse https://wokwi.com/projects/447252664581370881
