@@ -1,4 +1,4 @@
-# Monitor de Bem-Estar no Trabalho – ESP32 + HC-SR04 + DHT22 + MQTT
+# Monitor de Bem-Estar no Trabalho
 
 ## 📘 Descrição do Projeto
 Este projeto simula um **sistema IoT de monitoramento ambiental e segurança ocupacional**, alinhado ao tema **“O Futuro do Trabalho”**.  
@@ -93,7 +93,7 @@ Une conhecimentos de tecnologia, ergonomia e automação em uma solução práti
 Em resumo, o projeto mostra como a tecnologia conecta pessoas e dados para melhorar o trabalho humano, promovendo segurança, conforto e eficiência, pilares do futuro do trabalho digital e automatizado.
 
 ### ▶️ Execução no Wokwi
-Acesse https://wokwi.com/projects/447252664581370881
+Acesse https://wokwi.com/projects/447252664581370881 ou instale os arquivos na pasta /wokwi
 
 ### 🧰 Dependências
 Biblioteca DHT sensor library
