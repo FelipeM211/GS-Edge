@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "author": "Projeto ESP32 - HC-SR04 + DHT22 + LEDs + MQTT (protoboard completa)",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 217.8, "left": 41.2, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrassonico",
+      "top": -60,
+      "left": 300,
+      "attrs": { "distance": "264" }
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht22",
+      "top": 80,
+      "left": 220,
+      "attrs": { "temperature": "-40", "humidity": "0" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledVermelho",
+      "top": 265.2,
+      "left": 176.6,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledAzul",
+      "top": 265.2,
+      "left": 215,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledVerde",
+      "top": 265.2,
+      "left": 263,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "esp:3V3", "bb1:tp.1", "red", [ "v0" ] ],
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:GND.1", "bb1:tn.1", "black", [ "v0" ] ],
+    [ "dht22:VCC", "bb1:tp.5", "red", [ "v0" ] ],
+    [ "dht22:GND", "bb1:tn.5", "black", [ "v0" ] ],
+    [ "dht22:SDA", "esp:15", "green", [ "v0" ] ],
+    [ "ultrassonico:VCC", "bb1:tp.10", "red", [ "v0" ] ],
+    [ "ultrassonico:GND", "bb1:tn.10", "black", [ "v0" ] ],
+    [ "ultrassonico:trig", "esp:5", "orange", [ "v0" ] ],
+    [ "ultrassonico:echo", "esp:18", "yellow", [ "v0" ] ],
+    [ "ledVermelho:A", "esp:12", "red", [ "v0" ] ],
+    [ "ledAzul:A", "esp:14", "blue", [ "v0" ] ],
+    [ "ledVerde:A", "esp:27", "green", [ "v0" ] ],
+    [ "dht22:SDA", "esp:D15", "green", [ "v6.7", "h-143.21" ] ],
+    [ "ultrassonico:TRIG", "esp:D5", "green", [ "v0" ] ],
+    [ "ultrassonico:ECHO", "esp:D18", "green", [ "v0" ] ],
+    [ "esp:D12", "ledVermelho:A", "green", [ "h0" ] ],
+    [ "bb1:tn.11", "ledVermelho:C", "green", [ "v0" ] ],
+    [ "esp:D14", "ledAzul:A", "green", [ "h0" ] ],
+    [ "bb1:tn.15", "ledAzul:C", "green", [ "v0" ] ],
+    [ "esp:D27", "ledVerde:A", "green", [ "h0" ] ],
+    [ "bb1:tn.19", "ledVerde:C", "green", [ "v0" ] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "ledVermelho:A", "bb1:15t.e", "", [ "$bb" ] ],
+    [ "ledVermelho:C", "bb1:14t.e", "", [ "$bb" ] ],
+    [ "ledAzul:A", "bb1:19t.e", "", [ "$bb" ] ],
+    [ "ledAzul:C", "bb1:18t.e", "", [ "$bb" ] ],
+    [ "ledVerde:A", "bb1:24t.e", "", [ "$bb" ] ],
+    [ "ledVerde:C", "bb1:23t.e", "", [ "$bb" ] ],
+    [ "ultrassonico:TRIG", "esp:5", "green", [ "v0" ] ],
+    [ "ultrassonico:ECHO", "esp:18", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
