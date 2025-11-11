@@ -110,8 +110,9 @@ Envio via HTTP para API ou banco de dados.
 Sistema de feedback automatizado (notificações ou relatórios).
 
 ## 🔗 Links
-# [acessar wokwi](https://wokwi.com/projects/447252664581370881)
-# [video explicativo](https://youtu.be/2OGfu0PylPc)
+[acessar wokwi](https://wokwi.com/projects/447252664581370881)
+
+[video explicativo](https://youtu.be/2OGfu0PylPc)
 
 ## 👥 Participantes
 
