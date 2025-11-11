@@ -46,7 +46,7 @@ Criar uma aplicação com ESP32 que monitora condições de proximidade e confor
     "temperatura": 28.5,
     "umidade": 61.3
   }
-🔌 Esquema de Ligação (resumo)
+## 🔌 Esquema de Ligação (resumo)
 HC-SR04 → VCC (3.3V), GND, Trig (5), Echo (18)
 
 DHT22 → VCC (3.3V), GND, Data (15)
@@ -60,7 +60,7 @@ Azul → 14
 Verde → 27
 (todos com o cátodo no GND)
 
-🧠 Justificativa e Correspondência com o Tema “O Futuro do Trabalho”
+## 🧠 Justificativa e Correspondência com o Tema “O Futuro do Trabalho”
 O projeto se alinha ao tema “O Futuro do Trabalho – Conectando pessoas, competências e propósito por meio da tecnologia” ao demonstrar como IoT e automação podem promover ambientes de trabalho mais inteligentes e seguros.
 
 Conexões diretas com o tema:
@@ -92,10 +92,10 @@ Une conhecimentos de tecnologia, ergonomia e automação em uma solução práti
 
 Em resumo, o projeto mostra como a tecnologia conecta pessoas e dados para melhorar o trabalho humano, promovendo segurança, conforto e eficiência, pilares do futuro do trabalho digital e automatizado.
 
-### ▶️ Execução no Wokwi
+## ▶️ Execução no Wokwi
 Acesse [o wokwi](https://wokwi.com/projects/447252664581370881) ou instale os arquivos na pasta [wokwi](./wokwi)
 
-### 🧰 Dependências
+## 🧰 Dependências
 Biblioteca DHT sensor library
 
 Biblioteca PubSubClient
@@ -109,13 +109,14 @@ Envio via HTTP para API ou banco de dados.
 
 Sistema de feedback automatizado (notificações ou relatórios).
 
-### 🔗 Links
+## 🔗 Links
 # [acessar wokwi](https://wokwi.com/projects/447252664581370881)
 # [video explicativo](https://youtu.be/2OGfu0PylPc)
 
-### 👥 Participantes
+## 👥 Participantes
 
-# Felipe Balbino Murad - RM 562347
-# Lucas Mesquita Massoni - RM 561686
+Felipe Balbino Murad - RM 562347
+
+Lucas Mesquita Massoni - RM 561686
 
 
