@@ -59,7 +59,7 @@ Azul → 14
 
 Verde → 27
 (todos com o cátodo no GND)
-(./circuito)
+![Circuito em Funcionamento](./circuito)
 
 ## 🧠 Justificativa e Correspondência com o Tema “O Futuro do Trabalho”
 O projeto se alinha ao tema “O Futuro do Trabalho – Conectando pessoas, competências e propósito por meio da tecnologia” ao demonstrar como IoT e automação podem promover ambientes de trabalho mais inteligentes e seguros.
